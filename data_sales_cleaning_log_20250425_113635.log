@@ -1,0 +1,12 @@
+2025-04-25 11:36:35 - Starting ETL cleaning for dataset: Documents/Rori_Files/Data_Ninjas_ETL/sample_dirty_dataset.csv
+2025-04-25 11:37:07 - Starting ETL cleaning for dataset: sample_dirty_dataset.csv
+2025-04-25 11:37:07 - Dataset loaded successfully. 300 rows × 6 columns
+2025-04-25 11:37:07 - Duplicates handled: 0 found, 300 rows remain after deduplication.
+2025-04-25 11:37:07 - Name cleaning: 9 missing names imputed, titles removed.
+2025-04-25 11:37:07 - Email cleaning: 19 missing emails imputed, standardized to lowercase.
+2025-04-25 11:37:07 - Birthdate processing: 0 invalid birthdates dropped, 0 suspicious ages flagged, string format (dd-mm-yyyy) added.
+2025-04-25 11:37:07 - Signup date processing: 0 invalid signup dates dropped, 0 future signup dates removed, days_since_signup and string format (dd-mm-yyyy) added.
+2025-04-25 11:37:07 - Purchase amount cleaning: 0 non-numeric values converted to NaN, missing values filled with mean.
+2025-04-25 11:37:07 - Category normalization: 0 missing categories dropped, standardized categories: {'Toys': 47, 'Books': 43, 'Furniture': 41, 'Groceries': 38, 'Beauty': 36, 'Sports': 35, 'Clothing': 31, 'Electronics': 29}.
+2025-04-25 11:37:07 - Data consistency check: 0 invalid signup_date vs. birthdate cases flagged.
+2025-04-25 11:37:07 - Dataset cleaned and saved as data_sales_cleaned.csv. Final shape: 300 rows × 12 columns
